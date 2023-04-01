@@ -1,0 +1,32 @@
+{
+  "name": "tkinter-helper",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "core-js": "^3.23.5",
+    "element-ui": "^2.15.9",
+    "js-base64": "^3.7.2",
+    "js-cookie": "^3.0.1",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "uniqid": "^5.4.0",
+    "vue": "^2.7.8",
+    "vue-codemirror": "^4.0.6",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "sass": "^1.53.0",
+    "sass-loader": "^12.0.0",
+    "vue-template-compiler": "^2.7.8"
+  }
+}

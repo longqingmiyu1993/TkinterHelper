@@ -1,0 +1,165 @@
+{
+  "win": {
+    "top": 97,
+    "left": 191,
+    "width": 576,
+    "height": 207,
+    "id": "lbhj5xtk",
+    "type": "tk_win",
+    "text": "主机端口检测",
+    "frame": true,
+    "elements": [
+      {
+        "top": 20,
+        "left": 10,
+        "width": "70",
+        "event_bind_list": [],
+        "is_show": true,
+        "height": "25",
+        "text": "ip/域名",
+        "id": "l5asydoy",
+        "type": "tk_label"
+      },
+      {
+        "top": 20,
+        "left": 90,
+        "width": 150,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "id": "ip",
+        "type": "tk_input"
+      },
+      {
+        "top": 70,
+        "left": 10,
+        "width": 70,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": "25",
+        "text": "开始端口",
+        "id": "l5asyhl5",
+        "type": "tk_label"
+      },
+      {
+        "top": 70,
+        "left": 90,
+        "width": 150,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "id": "port_start",
+        "type": "tk_input"
+      },
+      {
+        "top": 120,
+        "left": 10,
+        "width": "70",
+        "event_bind_list": [],
+        "is_show": true,
+        "height": "25",
+        "text": "结束端口",
+        "id": "l5asysjt",
+        "type": "tk_label"
+      },
+      {
+        "top": 120,
+        "left": 90,
+        "width": 150,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "id": "port_end",
+        "type": "tk_input"
+      },
+      {
+        "top": 169,
+        "left": 89,
+        "width": 144,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "id": "rate",
+        "type": "tk_progressbar"
+      },
+      {
+        "top": 170,
+        "left": 10,
+        "width": 69,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "text": "进度",
+        "id": "l5asz624",
+        "type": "tk_label"
+      },
+      {
+        "top": 170,
+        "left": 480,
+        "width": 86,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 28,
+        "text": "开始扫描",
+        "id": "scan",
+        "type": "tk_button"
+      },
+      {
+        "top": 170,
+        "left": 250,
+        "width": "80",
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "text": "用时统计",
+        "id": "l5at0w19",
+        "type": "tk_label"
+      },
+      {
+        "top": 170,
+        "left": 340,
+        "width": 121,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 24,
+        "text": "79:30:12",
+        "id": "time",
+        "type": "tk_label"
+      },
+      {
+        "top": 20,
+        "left": 249,
+        "width": 317,
+        "event_bind_list": [],
+        "is_show": true,
+        "height": 138,
+        "options": [
+          "列表框",
+          "Python",
+          "Tkinter Helper"
+        ],
+        "id": "ports",
+        "type": "tk_list_box"
+      }
+    ],
+    "event_bind_list": [],
+    "menus": [
+      {
+        "id": "lbhrd8mf",
+        "name": "文件",
+        "call": ""
+      },
+      {
+        "id": "lbhrftip",
+        "name": "编辑",
+        "call": ""
+      }
+    ]
+  },
+  "name": "Tkinter布局助手",
+  "web": "https://pytk.net/tkinter-helper",
+  "github": "https://github.com/iamxcd/tkinter-helper",
+  "gitee": "https://gitee.com/iamxcd/tkinter-helper",
+  "version": "2.4.2",
+  "qq_group": "788392508"
+}
